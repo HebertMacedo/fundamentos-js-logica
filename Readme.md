@@ -211,3 +211,21 @@ if (valorCompra > 200){
 let total = valorCompra - desconto;
 alert(`O valor total da sua compra com desconto de R$${desconto.toFixed(2)} é R$${total.toFixed(2)}.`);
 ```
+
+### 18. Calcular a média das notas do aluno
+
+```
+let nota1 = parseFloat(prompt('Digite a primeira nota:'));
+let nota2 = parseFloat(prompt('Digite a segunda nota:'));
+let nota3 = parseFloat(prompt('Digite a terceira nota:'));
+
+let media = (nota1 + nota2 + nota3) / 3;
+
+if (media >= 7) {
+    alert(`Parabéns, você foi aprovado sua média é ${media.toFixed(1)}`);
+} else if (media >= 6) {
+    alert(`Você está de recuperação, sua média é ${media.toFixed(1)}`);
+} else {
+    alert(`Você foi reprovado, sua média é ${media.toFixed(1)}`);
+}
+```
