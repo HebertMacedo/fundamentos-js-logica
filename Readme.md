@@ -229,3 +229,26 @@ if (media >= 7) {
     alert(`Você foi reprovado, sua média é ${media.toFixed(1)}`);
 }
 ```
+
+### 19. 4: Dia da Semana
+
+```
+let dia = prompt('Que dia da semana é hoje?');
+
+switch (dia.toLowerCase()) {
+    case 'segunda':
+    case 'terça':
+    case 'quarta':
+    case 'quinta':
+    case 'sexta':
+        alert('Dia de trabalho.');
+        break;
+    case 'sábado':
+    case 'domingo':
+        alert('Final de semana!');
+        break;
+    default:
+        alert('Dia inválido.');
+}
+
+```
